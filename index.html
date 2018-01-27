@@ -1,14 +1,36 @@
 </!DOCTYPE html>
 <html>
 <head>
-      <link rel="stylesheet" href="style.css">
-      <script type="text/javascript" src="script.js"></script>
+      <link rel="stylesheet" href="sidemenu_style.css">
+      <script type="text/javascript" src="sidemenu_script.js"></script>
       <script type="text/javascript" src="Hammer.min.js"></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abril+Fatface">
 </head>
 <body>
-<div class="icon" id="fab"></div>
-<div class="about"></div>
-<div class="social"><i class="fa fa-facebook-square"></i><i class="fa fa-instagram"></i><i class="fa fa-google-plus-square"></i></div>
+     <!Part for Sidemenu:About us,Login,Signup,Our team,Social media links>
+     <!blurbg is used for blurring background when selected and also a tab for closing the sidemenu..i can be replaced with background used and in js....>
+<div class="sidemenu_blurbg"></div>
+<!icon is made just for my reference for a start...replace it with proper icon or svg>
+<div class="sidemenu_icon" id="sidemenu_fab"></div>
+<!i have used inline styling for a to remove text decoration as some browsers wont remove it from external css>
+<div class="sidemenu_about">
+    <ul>
+        <li>
+        <a href="#" style="text-decoration: none;color: inherit;">
+            <i class="fa fa-sign-in" aria-hidden="true"></i>Login</a></li>
+        <li>
+            <a href="#" style="text-decoration: none;color: inherit;">
+                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>Sign Up</a></li>
+        <li>
+            <a href="#" style="text-decoration: none;color: inherit;">About Us</a></li>
+        <li>
+            <a href="#" style="text-decoration: none;color: inherit;">Our Team</a></li>
+    </ul>
+</div>
+<div class="sidemenu_social">
+    <a href="#" style="text-decoration: none;color: inherit;"><i class="fa fa-facebook-official"></i></a>
+    <a href="#" style="text-decoration: none;color: inherit;"><i class="fa fa-instagram"></i></a>
+    <a href="#" style="text-decoration: none;color: inherit;"><i class="fa fa-google-plus-square"></i></a></div>                                 <!Sidemenu ends here>
 </body>
 </html>
