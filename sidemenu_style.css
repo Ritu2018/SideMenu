@@ -6,7 +6,7 @@
     bottom:5%;
     left:2%;
     background-color: lightblue;
-    z-index: 3;
+    z-index: 1;
 }
 .sidemenu_social{
     border-radius: 0 0 0 100%;
@@ -83,7 +83,7 @@
 }
 @media screen and (min-width:1024px ) {
   .sidemenu_about{
-    width:25%;
+    width:20%;
     height:350px;
   }
   .sidemenu_about ul{
