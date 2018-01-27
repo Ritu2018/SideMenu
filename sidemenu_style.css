@@ -21,7 +21,7 @@
 }
 .sidemenu_about{
     border-radius: 0 100% 0 0;
-    width:200px;
+    width:65%;
     height: 300px;
     position: absolute;
     bottom:0%;
@@ -55,7 +55,7 @@
     font-size: 30px;
     position: relative;
     left:-5%;
-    top:20%;
+    top:10%;
     color:white;
 }
 .sidemenu_about ul li{
@@ -67,11 +67,27 @@
     width: 100%;
     z-index:2;
     }
-    /*layout adjustment for pc*/
+    /*layout adjustment for pc and tablet*/
+    @media (min-width: 768px) and (max-width: 1024px) {
+  .sidemenu_about{
+    width:35%;
+    height:350px;
+  }
+   .sidemenu_about ul{
+    top:20%;
+  }
+  .sidemenu_about ul li{
+ margin-bottom: 20px;
+}
+
+}
 @media screen and (min-width:1024px ) {
   .sidemenu_about{
-    width:300px;
-    height:400px;
+    width:25%;
+    height:350px;
+  }
+  .sidemenu_about ul{
+    top:20%;
   }
   .sidemenu_about ul li{
  margin-bottom: 20px;
